@@ -15,10 +15,10 @@ int main() {
 }*/
 
 int main() {
-    unsigned a;
+    unsigned int a;
     cout<< "a="; cin>>a;
 
-    cout << ((a/100 + a%100/10 + a%10) %2 == 0) << endl;
-    cout << ((a/100 + a/10%10 + a%10) %2 == 0) << endl;
+    cout << (a/1000 + a/100%10 == (a/10%10 + a%10) )<< endl;
+
     return 0;
 }
