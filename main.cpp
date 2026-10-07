@@ -6,7 +6,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int main() {
-    cout << "Hello World!" << endl;
+    unsigned int n;
+    cout << "n=";cin >> n;
+    cout << (n%2==0 && n<100 && n > 9) << endl;
     return 0;
 }
